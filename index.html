@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calendário</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <article class="calendar" aria-label="Calendário">
+      <header class="calendar-header">
+        <button id="prevButton" aria-label="Mês anterior">&lt;</button>
+      <h2 id="monthYear" aria-live="polite"></h2>
+      <button id="nextButton" aria-label="Próximo mês">&gt;</button>
+      </header>
+      <section class="calendar-body" id="calendarBody"></section>
+    </article>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
